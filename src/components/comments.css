@@ -145,12 +145,12 @@ display:flex;
 }
 
 .delete>p:last-child::before{
-    content: url("frontend/src/images/icon-edit.svg");
+    content: url("../images/icon-edit.svg");
     margin-right:5px;
     margin-left: 15px;
 }
 .reply::before{
-    content: url("frontend/src/images/icon-reply.svg");
+    content: url("../images/icon-reply.svg");
 }
 .editable{
     width:97%;
