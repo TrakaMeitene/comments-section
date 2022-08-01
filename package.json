@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "homepgae": "http://TrakaMeitene.github.io/comments-section",
+  "homepgae": "http://TrakaMeitene.github.io/comments-section/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
