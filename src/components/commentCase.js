@@ -116,7 +116,7 @@ export default function CommentCase({ comment, id, getAllData, currentuser, comm
             type: "reply"
         }
 
-        axios.post("http://localhost:4000/addcomment", { newcomment })
+        axios.post("https://nodeprojectreact.herokuapp.com/addcomment", { newcomment })
             .catch((error) => {
                 alert('Error:', error);
             })
@@ -149,7 +149,7 @@ export default function CommentCase({ comment, id, getAllData, currentuser, comm
             replyTo: comment.replyTo
         }
 
-        axios.put('http://localhost:4000/edit', { params })
+        axios.put('https://nodeprojectreact.herokuapp.com/edit', { params })
             .catch(function (error) {
                 alert(error);
             })
