@@ -132,7 +132,7 @@ display:flex;
     color:#ED6368;
 }
 .delete>p:first-child::before{
-    content: url("frontend/src/images/icon-delete.svg");
+    content: url("../images/icon-delete.svg");
     margin-right:5px;
 }
 
