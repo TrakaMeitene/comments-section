@@ -20,7 +20,7 @@ export default function Comments() {
 
     //get all comments from db
     const getAllData = () => {
-        axios.get('http://localhost:4000')
+        axios.get('https://nodeprojectreact.herokuapp.com/')
             .then(response => setComments(response.data))
             .catch((error) => {
                 console.error('Error:', error);
@@ -31,7 +31,7 @@ export default function Comments() {
     //get current user from db
     const getUser = () => {
 
-        axios.get('http://localhost:4000/user', { params: { name: "juliusomo" } })
+        axios.get('/user', { params: { name: "juliusomo" } })
             .then(response => setUser(response.data))
             .catch((error) => {
                 console.error('Error:', error);
@@ -56,7 +56,7 @@ const sortedid = arrayofid.sort((a, b) => a - b)
             replyTo: "0"
         }
 
-        axios.post("http://localhost:4000/addcomment", { newcomment })
+        axios.post("/addcomment", { newcomment })
             .catch((error) => {
                alert('Error:', error);
             })
