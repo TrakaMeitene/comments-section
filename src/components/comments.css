@@ -132,7 +132,7 @@ display:flex;
     color:#ED6368;
 }
 .delete>p:first-child::before{
-    content: url("./components/images/icon-delete.svg");
+    content: url("../components/images/icon-delete.svg");
     margin-right:5px;
 }
 
@@ -145,12 +145,12 @@ display:flex;
 }
 
 .delete>p:last-child::before{
-    content: url("./components/images/icon-edit.svg");
+    content: url("../components/images/icon-edit.svg");
     margin-right:5px;
     margin-left: 15px;
 }
 .reply::before{
-    content: url("./components/images/icon-reply.svg");
+    content: url("../components/images/icon-reply.svg");
 }
 .editable{
     width:97%;
