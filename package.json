@@ -42,5 +42,9 @@
   "engines": {
     "node": "16.13.2",
     "npm": "8.1.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^4.10.0"
   }
 }
