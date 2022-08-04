@@ -8,7 +8,7 @@ deletemodal(false)
     }
 
     const deletfrom = ()=>{
-        
+        // eslint-disable-next-line 
         axios.delete("/delete/${commentid}", {
               data: {
                   id: commentid}
