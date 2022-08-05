@@ -56,7 +56,7 @@ const sortedid = arrayofid.sort((a, b) => a - b)
             replyTo: "0"
         }
 
-        axios.post("/addcomment", { newcomment })
+        axios.post("https://nodeprojectreact.herokuapp.com/addcomment", { newcomment })
             .catch((error) => {
                alert('Error:', error);
             })

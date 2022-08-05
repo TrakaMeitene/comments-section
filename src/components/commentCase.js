@@ -76,7 +76,7 @@ export default function CommentCase({ comment, id, getAllData, currentuser, comm
     const vote = (e) => {
         const type = e.target.getAttribute('value')
 
-        axios.put('/score', {
+        axios.put('https://nodeprojectreact.herokuapp.com/score', {
             id: id,
             comment: comment,
             type: type
@@ -116,7 +116,7 @@ export default function CommentCase({ comment, id, getAllData, currentuser, comm
             type: "reply"
         }
 
-        axios.post("/addcomment", { newcomment })
+        axios.post("https://nodeprojectreact.herokuapp.com/addcomment", { newcomment })
             .catch((error) => {
                 alert('Error:', error);
             })
@@ -149,7 +149,7 @@ export default function CommentCase({ comment, id, getAllData, currentuser, comm
             replyTo: comment.replyTo
         }
 
-        axios.put('/edit', { params })
+        axios.put('https://nodeprojectreact.herokuapp.com/edit', { params })
             .catch(function (error) {
                 alert(error);
             })
