@@ -1,8 +1,8 @@
 const { createProxyMiddleware } = require('http-proxy-middleware');
 const path = require('path')
-//const router = express.Router();
+const router = express.Router();
 
-//module.exports = router;
+module.exports = router;
 module.exports = function(app) { 
      app.use(    createProxyMiddleware(["/api", , "/otherApi"], { target: "https://nodeprojectreact.herokuapp.com/" }) 
       );
