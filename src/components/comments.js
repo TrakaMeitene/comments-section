@@ -20,7 +20,7 @@ export default function Comments() {
 
     //get all comments from db
     const getAllData = () => {
-        axios.get('https://nodeprojectreact.herokuapp.com/')
+        axios.get('https://nodeprojectreact.herokuapp.com')
             .then(response => setComments(response.data))
             .catch((error) => {
                 console.error('Error:', error);
