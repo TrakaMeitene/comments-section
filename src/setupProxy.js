@@ -1,4 +1,4 @@
-const { createProxyMiddleware } = require('https-proxy-middleware');
+const { createProxyMiddleware } = require('http-proxy-middleware');
 const path = require('path')
 const router = express.Router();
 
