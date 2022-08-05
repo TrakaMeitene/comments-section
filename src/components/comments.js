@@ -31,7 +31,7 @@ export default function Comments() {
     //get current user from db
     const getUser = () => {
 
-        axios.get('/user', { params: { name: "juliusomo" } })
+        axios.get('https://nodeprojectreact.herokuapp.com/user', { params: { name: "juliusomo" } })
             .then(response => setUser(response.data))
             .catch((error) => {
                 console.error('Error:', error);
