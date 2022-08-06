@@ -12,7 +12,6 @@ export default function Comments() {
     const [newcomment, setNewcomment] = useState();
     const [deletemode, setDelete] = useState(false);
     const [commentid, setCommentid] = useState();
-    const [img, setImg] = useState("");
 
     useEffect(() => {
         getAllData();
@@ -34,7 +33,6 @@ export default function Comments() {
 
         axios.get('https://nodeprojectreact.herokuapp.com/user', { params: { name: "juliusomo" } })
             .then(response => setUser(response.data))
-            .then(setImg(user[0].image.png))
             .catch((error) => {
                 console.error('Error:', error);
             })
@@ -96,7 +94,7 @@ const sortedid = arrayofid.sort((a, b) => a - b)
             {/* input comment field */}
             <div className="comment-window">
                 <div className="avatar">
-                    <img alt="avatar" src={img} />
+                    <img alt="avatar" src={user[0].image.png} />
                 </div>
                 <form onSubmit={postcomment}>
                     <textarea rows="3" cols="10" wrap="hard" placeholder="Add a comment..." onChange={textchange} value={newcomment} />
