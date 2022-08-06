@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import plus from "../images/icon-plus.svg"
 const axios = require('axios').default;
 
 export default function CommentCase({ comment, id, getAllData, currentuser, comments, deletemodal, deletefromdb }) {
@@ -198,7 +198,7 @@ export default function CommentCase({ comment, id, getAllData, currentuser, comm
         <>
             <div className="comment-window">
                 <div className="vote-count">
-                    <img alt='plus' src='../../images/icon-plus.svg' onClick={vote} value={"plus"} />
+                    <img alt='plus' src={plus} onClick={vote} value={"plus"} />
                     <p>{comment.score}</p>
                     <img alt="minus" src="../../images/icon-minus.svg" onClick={vote} value={"minus"} />
                 </div>
