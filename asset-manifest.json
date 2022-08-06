@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/comments-section/static/css/main.160ac47c.chunk.css",
-    "main.js": "/comments-section/static/js/main.ae7ea969.chunk.js",
-    "main.js.map": "/comments-section/static/js/main.ae7ea969.chunk.js.map",
-    "runtime-main.js": "/comments-section/static/js/runtime-main.e01d1f84.js",
-    "runtime-main.js.map": "/comments-section/static/js/runtime-main.e01d1f84.js.map",
-    "static/js/2.482971bb.chunk.js": "/comments-section/static/js/2.482971bb.chunk.js",
-    "static/js/2.482971bb.chunk.js.map": "/comments-section/static/js/2.482971bb.chunk.js.map",
-    "static/js/3.f6899d07.chunk.js": "/comments-section/static/js/3.f6899d07.chunk.js",
-    "static/js/3.f6899d07.chunk.js.map": "/comments-section/static/js/3.f6899d07.chunk.js.map",
+    "main.js": "/comments-section/static/js/main.de0f2960.chunk.js",
+    "main.js.map": "/comments-section/static/js/main.de0f2960.chunk.js.map",
+    "runtime-main.js": "/comments-section/static/js/runtime-main.87e46b09.js",
+    "runtime-main.js.map": "/comments-section/static/js/runtime-main.87e46b09.js.map",
+    "static/js/2.57b0c6eb.chunk.js": "/comments-section/static/js/2.57b0c6eb.chunk.js",
+    "static/js/2.57b0c6eb.chunk.js.map": "/comments-section/static/js/2.57b0c6eb.chunk.js.map",
+    "static/js/3.ec598936.chunk.js": "/comments-section/static/js/3.ec598936.chunk.js",
+    "static/js/3.ec598936.chunk.js.map": "/comments-section/static/js/3.ec598936.chunk.js.map",
     "index.html": "/comments-section/index.html",
     "static/css/main.160ac47c.chunk.css.map": "/comments-section/static/css/main.160ac47c.chunk.css.map",
-    "static/js/2.482971bb.chunk.js.LICENSE.txt": "/comments-section/static/js/2.482971bb.chunk.js.LICENSE.txt",
+    "static/js/2.57b0c6eb.chunk.js.LICENSE.txt": "/comments-section/static/js/2.57b0c6eb.chunk.js.LICENSE.txt",
     "static/media/comments.css": "/comments-section/static/media/icon-reply.bfb4589d.svg",
     "static/media/icon-minus.4aa6933c.svg": "/comments-section/static/media/icon-minus.4aa6933c.svg",
     "static/media/icon-plus.0037a825.svg": "/comments-section/static/media/icon-plus.0037a825.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e01d1f84.js",
-    "static/js/2.482971bb.chunk.js",
+    "static/js/runtime-main.87e46b09.js",
+    "static/js/2.57b0c6eb.chunk.js",
     "static/css/main.160ac47c.chunk.css",
-    "static/js/main.ae7ea969.chunk.js"
+    "static/js/main.de0f2960.chunk.js"
   ]
 }
