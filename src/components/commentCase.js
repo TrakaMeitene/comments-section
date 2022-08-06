@@ -168,7 +168,7 @@ export default function CommentCase({ comment, id, getAllData, currentuser, comm
 
     const image = comment.user.image.png;
     const current = currentuser[0].username
-    const currentuserimage = currentuser[0].image.png
+    const currentuserimage = require(currentuser[0].image.png)
 
     var edit = (<div className="comment-window">
         <div className="avatar">
