@@ -168,11 +168,11 @@ export default function CommentCase({ comment, id, getAllData, currentuser, comm
 
     const image = comment.user.image.png;
     const current = currentuser[0].username
-    const currentuserimage = currentuser[0].image.png
+   // const currentuserimage = currentuser[0].image.png
 
     var edit = (<div className="comment-window">
         <div className="avatar">
-            <img alt="avatar" src={currentuserimage} />
+            <img alt="avatar" src={`${process.env.PUBLIC_URL}/assets/${currentuser[0].image.png}`} />
         </div>
         <form onSubmit={replytocomment}>
             <textarea rows="3" cols="12" wrap="hard" defaultValue={"@" + comment.user.username + " "} onChange={onreplychange} />
