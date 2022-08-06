@@ -93,7 +93,7 @@ const sortedid = arrayofid.sort((a, b) => a - b)
             {/* input comment field */}
             <div className="comment-window">
                 <div className="avatar">
-                    <img alt="avatar" src={`${process.env.PUBLIC_URL}/assets/${user[0].image.png}`} />
+                    <img alt="avatar" src={`${process.env.PUBLIC_URL}/${user[0].image.png}`} />
                 </div>
                 <form onSubmit={postcomment}>
                     <textarea rows="3" cols="10" wrap="hard" placeholder="Add a comment..." onChange={textchange} value={newcomment} />
