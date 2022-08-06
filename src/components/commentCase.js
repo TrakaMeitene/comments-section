@@ -198,9 +198,9 @@ export default function CommentCase({ comment, id, getAllData, currentuser, comm
         <>
             <div className="comment-window">
                 <div className="vote-count">
-                    <img alt='plus' src='./images/icon-plus.svg' onClick={vote} value={"plus"} />
+                    <img alt='plus' src='../../images/icon-plus.svg' onClick={vote} value={"plus"} />
                     <p>{comment.score}</p>
-                    <img alt="minus" src="images/icon-minus.svg" onClick={vote} value={"minus"} />
+                    <img alt="minus" src="../../images/icon-minus.svg" onClick={vote} value={"minus"} />
                 </div>
                 <div className="comment-column">
                     <div className="comment-header">
