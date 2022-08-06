@@ -1,6 +1,5 @@
 import "./comments.css"
 import Modal from "../components/modal.js"
-import avatars from "../images/avatars/image-amyrobson.png"
 
 import { useEffect, useState, useCallback } from "react"
 import CommentCase from "./commentCase"
@@ -85,7 +84,6 @@ const sortedid = arrayofid.sort((a, b) => a - b)
         return ""
     }
 
-
     return (
         <>
             {comments.map((comment => ((comment.replyTo === "0") ?
@@ -95,7 +93,7 @@ const sortedid = arrayofid.sort((a, b) => a - b)
             {/* input comment field */}
             <div className="comment-window">
                 <div className="avatar">
-                    <img alt="avatar" src={user[0].image.png} />
+                    <img alt="avatar" src={`${process.env.DB_URI}/assets/${user[0].image.png}`} />
                 </div>
                 <form onSubmit={postcomment}>
                     <textarea rows="3" cols="10" wrap="hard" placeholder="Add a comment..." onChange={textchange} value={newcomment} />
