@@ -1,6 +1,7 @@
 import "./comments.css"
 import Modal from "../components/modal.js"
-import avatars from "./images/avatars"
+import avatars from "../images/avatars/image-amyrobson.png"
+
 import { useEffect, useState, useCallback } from "react"
 import CommentCase from "./commentCase"
 const axios = require('axios').default;
