@@ -229,6 +229,7 @@ b{
     } 
     .vote-count>img {
         width: 15%;
+        cursor: pointer;
     }
     .vote-count>p{
         font-size: 18px;

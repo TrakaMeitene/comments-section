@@ -76,7 +76,7 @@ export default function CommentCase({ comment, id, getAllData, currentuser, comm
 
     const vote = (e) => {
         const type = e.target.getAttribute('value')
-
+console.log(comment)
         axios.put('https://nodeprojectreact.herokuapp.com/score', {
             id: id,
             comment: comment,
