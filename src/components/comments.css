@@ -22,6 +22,7 @@ margin-right:20px;
 .vote-count>img{
     width:35%;
     margin:auto;
+    cursor: pointer;
 }
 .vote-count>p{
     margin:auto;
@@ -229,7 +230,6 @@ b{
     } 
     .vote-count>img {
         width: 15%;
-        cursor: pointer;
     }
     .vote-count>p{
         font-size: 18px;
