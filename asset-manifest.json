@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/comments-section/static/css/main.3e030801.chunk.css",
+    "main.css": "/comments-section/static/css/main.17dc6856.chunk.css",
     "main.js": "/comments-section/static/js/main.c8da6edc.chunk.js",
     "main.js.map": "/comments-section/static/js/main.c8da6edc.chunk.js.map",
     "runtime-main.js": "/comments-section/static/js/runtime-main.87e46b09.js",
@@ -10,7 +10,7 @@
     "static/js/3.ec598936.chunk.js": "/comments-section/static/js/3.ec598936.chunk.js",
     "static/js/3.ec598936.chunk.js.map": "/comments-section/static/js/3.ec598936.chunk.js.map",
     "index.html": "/comments-section/index.html",
-    "static/css/main.3e030801.chunk.css.map": "/comments-section/static/css/main.3e030801.chunk.css.map",
+    "static/css/main.17dc6856.chunk.css.map": "/comments-section/static/css/main.17dc6856.chunk.css.map",
     "static/js/2.57b0c6eb.chunk.js.LICENSE.txt": "/comments-section/static/js/2.57b0c6eb.chunk.js.LICENSE.txt",
     "static/media/comments.css": "/comments-section/static/media/icon-reply.bfb4589d.svg",
     "static/media/icon-minus.4aa6933c.svg": "/comments-section/static/media/icon-minus.4aa6933c.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.87e46b09.js",
     "static/js/2.57b0c6eb.chunk.js",
-    "static/css/main.3e030801.chunk.css",
+    "static/css/main.17dc6856.chunk.css",
     "static/js/main.c8da6edc.chunk.js"
   ]
 }
