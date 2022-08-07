@@ -241,5 +241,15 @@ b{
 .modal{
     width:85%;
 }
-
+form{
+  flex-direction: column;
+  align-items: flex-end;
+}
+textarea{
+    margin-right:0;
+    width:95%;
+}
+.comment-window>.avatar{
+    margin-top: -40px;
+}
 }
