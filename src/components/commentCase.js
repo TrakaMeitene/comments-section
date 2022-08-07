@@ -199,7 +199,7 @@ console.log(comment)
         <>
             <div className="comment-window">
                 <div className="vote-count">
-                    <img alt='plus' src={plus} onClick={vote} value={"plus"} />
+                  <img alt='plus' src={plus}  value={"plus"} />
                     <p>{comment.score}</p>
                     <img alt="minus" src={minus} onClick={vote} value={"minus"} />
                 </div>
