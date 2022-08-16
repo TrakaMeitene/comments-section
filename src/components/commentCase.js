@@ -6,7 +6,7 @@ const axios = require('axios').default;
 export default function CommentCase({ comment, id, getAllData, currentuser, comments, deletemodal, deletefromdb }) {
 
     const [replymode, setReply] = useState(false);
-    const [replyvalue, setReplyvalue] = useState();
+    const [replyvalue, setReplyvalue] = useState("@" + comment.user.username + " ");
     const [editmode, setEditmode] = useState(false)
     const [editedvalue, setEditedvalue] = useState();
 
@@ -109,7 +109,7 @@ export default function CommentCase({ comment, id, getAllData, currentuser, comm
 
         const newcomment = {
             id: sortedid[sortedid.length - 1] + 1,
-            content: replyvalue,
+            content: (replyvalue === undefined) ? "" : replyvalue,
             createdAt: new Date(),
             score: 0,
             user: currentuser[0],
@@ -168,7 +168,6 @@ export default function CommentCase({ comment, id, getAllData, currentuser, comm
 
     const image = comment.user.image.png;
     const current = currentuser[0].username
-   // const currentuserimage = currentuser[0].image.png
 
     var edit = (<div className="comment-window">
         <div className="avatar">
