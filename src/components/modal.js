@@ -9,7 +9,7 @@ deletemodal(false)
 
     const deletfrom = ()=>{
         // eslint-disable-next-line 
-        axios.delete("https://nodeprojectreact.herokuapp.com/delete/${commentid}", {
+        axios.delete("https://server-c2oh.onrender.com/delete/${commentid}", {
               data: {
                   id: commentid}
               })

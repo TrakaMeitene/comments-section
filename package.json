@@ -24,7 +24,7 @@
     "deploy": "gh-pages -d build"
   },
   
-  "proxy": "https://nodeprojectreact.herokuapp.com",
+  "proxy": "https://server-c2oh.onrender.com",
   "eslintConfig": {
     "extends": [
       "react-app",
