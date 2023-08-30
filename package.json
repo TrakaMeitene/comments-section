@@ -13,7 +13,8 @@
     "react-dom": "^18.1.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "webpack": "4.44.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -23,7 +24,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  
   "proxy": "https://server-c2oh.onrender.com",
   "eslintConfig": {
     "extends": [
